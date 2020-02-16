@@ -1,0 +1,10 @@
+docker pull [OPTIONS] NAME[:TAG]	远程拉取镜像
+docker images	查看本机有哪些镜像
+docker run [OPTIONS] IMAGE[:TAG][COMMAND][ARG...]	运行镜像
+docker run -d	后台启动
+docker exec	进入容器内部
+exit	退出容器内部
+docker stop	停止容器
+docker run -p 主机端口:容器端口 [容器名字] 端口映射
+docker run -d -P [容器名字]	把所有的监听端口都会与主机建立映射
+docker build -t jpress:latest .	创建自己的容器
